@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 38px 0 37px 98px;
+}
+.header_menu {
+    width: 215px;
+    margin: 45px 97px 46px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item {
+    display: inline; 
+}
+.menu_item a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #191919
+}
+.menu_item a:hover {
+    color: #10c9c3;
+}
+.article {
+    background: #f6f6f6;
+    display: flex;
+
+}
+.article_text {
+    margin: 90px 128px 100px 98px;
+}
+.art_title {
+    text-transform: capitalize;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+.art_text {
+    margin-bottom: 30px;
+}
+.art_info {
+    margin-bottom: 5px;
+}
+.article_pic {
+    margin-bottom: -4px;
+}
+.article_text p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-size: 16px;
+}
+span {
+    font-weight: bold;
+    color: black;
+}
+.blog_nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 44px 98px 44px 98px;
+}
+.blog_nav a {
+    text-decoration: none;
+    color: black;
+}
+.point {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+}
+.point img {
+    margin: 2px;
+}
+footer {
+    padding: 100px 0 101px;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+}
+.info {
+    margin-left: 99px;
+}
+.info-title {
+    font-size: 18px;
+    margin: -1px 0 27px;
+}
+.info-cr, .contact-email, .contect-tel {
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact {
+    margin: 0 145px 0 246px;
+}
+.footer-nav {
+    display: flex;
+    margin-right: 131px;
+}
+.footer-menu:first-child {
+    margin-right: 55px;
+}
+.footer-menu:last-child {
+    margin-left: 135px;
+}
+.footer-menu-item {
+    list-style-type: none;
+}
+.footer-menu-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
