@@ -35,7 +35,7 @@
 
 }
 .article_text {
-    margin: 90px 128px 100px 98px;
+    margin: 90px 145px 100px 98px;
 }
 .art_title {
     text-transform: capitalize;
@@ -78,6 +78,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     width: 20px;
+    margin-left: -26px;
 }
 .point img {
     margin: 2px;
