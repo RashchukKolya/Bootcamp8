@@ -11,7 +11,7 @@
 .menu {
     display: flex;
     justify-content: space-around;
-    margin: 77px 0 105px;
+    margin-top: 77px;
 }
 .menu_item {
     list-style-type: none;
@@ -32,8 +32,12 @@
 .col {
     width: 420px;
 }
+.col img {
+    margin-top: 105px;
+}
 .title {
     font-size: 30px;
+    margin-bottom: 34px;
 }
 .title::first-letter {
     text-transform: uppercase;
@@ -47,7 +51,6 @@
 }
 .text {
     font-size: 14px;
-    margin: 34px 0 130px;
 }
 .button {
     display: block;
@@ -56,5 +59,5 @@
     background-color: #fff;
     padding: 22px 34px;
     border: 1px solid;
-    margin: -76px auto 70px;
+    margin: 76px auto 70px;
 }
