@@ -1,0 +1,142 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	width: 1110px;
+	margin: 37px auto;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.logo {
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+	
+}
+.logo_item {
+	color: #1abc9c;
+}
+.logo_item span {
+	font-weight: 300;
+	color: #555252;
+}
+.menu {
+	display: flex;
+	width: 467px;
+	justify-content: space-between;
+}
+.menu_item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0f0101;
+}
+.menu_item:hover {
+	color: #1abc9c;
+}
+.title {
+	font-size: 48px;
+	text-transform: uppercase;
+	color : #515151;
+	font-weight: 900;
+	text-align: center;
+	margin: 111px auto 0;
+}
+.title::after {
+	display: block;
+	margin: 40px auto 90px;
+	content: '';
+	width: 164px;
+	height: 7px;
+	background-color: #1abc9c;
+	
+}
+.product{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.product__item {
+	margin-top: 30px;
+	width: 255px;
+}
+.product__item_img {
+	height: 282px;
+	background: #e9f0fd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.product__item_button {
+	background: #323232;
+}
+.button {
+	display: flex;
+	align-items: center;
+}
+.button__name, .button__price{
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 11px 0;
+}
+.button__name {
+	width: 187px;
+	padding-left: 14px;
+}
+.button__price {
+	width: 54px;
+	text-align: center;
+	background: #8c8c8c;
+}
+.product__item:hover  .button__name {
+	background: #1abc9c;
+}
+.product__item:hover .button__price {
+	background: #7fd9c7;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+.item__title {
+	width: 320px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #555252;
+	text-align: left;
+	margin-top: 15px;
+	line-height: 1.5em;
+}
+.item__title::after {
+	display: block;
+	content: '';
+	background-color: #1abc9c;
+	width: 136px;
+	height: 3px;
+	margin: 11px 0 29px;
+}
+.item__text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #555252;
+	margin-bottom: 40px;
+}
+.item__button {
+	padding: 15px 40px;
+	background: #1abc9c;
+	border-radius: 3px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
