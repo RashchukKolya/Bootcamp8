@@ -1,0 +1,212 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+.container {
+	width: 1110px;
+	margin: auto;
+	padding: 37px 0 100px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.logo {
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	
+}
+.logo_item {
+	color: #555252;
+}
+.logo::first-letter{
+	font-weight: 900;
+	color: #1abc9c;
+}
+.menu {
+	display: flex;
+	width: 467px;
+	justify-content: space-between;
+}
+.menu_item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0f0101;
+}
+.menu_item:hover {
+	color: #1abc9c;
+}
+.slider {
+	background: linear-gradient(to top, rgba(0, 0, 2, 52%), rgba(0, 0, 2, 52%)), url(../img/slide4.jpg);
+	height: 600px;
+	display: flex;
+	align-items: center;
+}
+.arrow {
+	width: 104px;
+	height: 104px;
+	background: #1abc9c;
+	opacity: 0.5;
+	border: none;
+	cursor: pointer;
+}
+.arrow:hover {
+	opacity: 1;
+}
+.title h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 900;
+}
+.title h3 {
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 37px;
+}
+.bg {
+	background: #e9f0fd;
+}
+.title__products {
+	text-align: center;
+	font-size: 48px;
+	text-transform: uppercase;
+	color : #515151;
+	font-weight: 900;
+	margin: 74px 0 32px;
+}
+.title__products::after {
+	display: block;
+	content: '';
+	width: 164px;
+	height: 7px;
+	background: #1abc9c;
+	border: none;
+	margin: 40px auto 60px;
+}
+.product{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.product__item {
+	margin-top: 30px;
+	width: 255px;
+	position: relative;
+}
+.product__item_img {
+	height: 322px;
+	background: #e9f0fd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.product__item_button {
+	background: #323232;
+	position: absolute;
+	top: 282px;
+}
+.button {
+	display: flex;
+	align-items: center;
+}
+.button__name, .button__price{
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 11px 0;
+}
+.button__name {
+	width: 201px;
+	padding-left: 14px;
+}
+.button__price {
+	width: 54px;
+	text-align: center;
+	background: #8c8c8c;
+}
+.product__item:hover .button__name{
+	background: #1abc9c;
+}
+.product__item:hover .button__price {
+	background: #7fd9c7;
+}
+.product__item:hover .main {
+	visibility: visible;
+}
+.footer_text {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	background: #323232;
+	color: white;
+	padding: 34px 0;
+}
+.footer_text span {
+	color: #1abc9c;
+}
+/* Описание стилей карточки которая появляется при hover */
+.main {
+	display: flex;
+	position: absolute;
+	top: 0px;
+    width: 255px;
+    height: 282px;
+    flex-direction: column;
+	background:linear-gradient(to top, rgba(0,0,0,52%), rgba(0,0,0,52%)) no-repeat, rgba(255,255,255,50%);
+    background-size: 233px 260px;
+	background-position: 10px 10px;
+	visibility: hidden;
+}
+.main_one {
+    display: flex;
+    width: 166px;
+    margin: 89px auto 7px;
+    justify-content: space-between;
+}
+.one {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one:hover {
+    background-color: #1abc9c;
+}
+.two {
+	margin:0 auto;
+	font-family: 'Open Sans', sans-serif;
+    width: 164px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-style: 14px;
+    text-transform: uppercase;
+    background-color: #323232;
+    color: white;
+}
+.two::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../img/icontel.png);
+    width: 28px;
+    height: 27px;
+    position: relative;
+    top: 6px;
+    right: 3px;
+}
+.two:hover {
+    background-color: #1abc9c;
+}

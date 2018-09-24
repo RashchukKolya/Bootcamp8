@@ -12,16 +12,16 @@
 }
 .logo {
 	font-size: 30px;
-	font-weight: 900;
+	font-weight: 300;
 	text-transform: uppercase;
 	
 }
 .logo_item {
-	color: #1abc9c;
-}
-.logo_item span {
-	font-weight: 300;
 	color: #555252;
+}
+.logo::first-letter {
+	font-weight: 900;
+	color: #1abc9c
 }
 .menu {
 	display: flex;
