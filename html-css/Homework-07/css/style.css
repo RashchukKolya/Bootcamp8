@@ -1,0 +1,141 @@
+.section {
+    width: 940px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 120px;
+}
+.menu {
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.menu_item a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #222222;
+    font-size: 14px;
+}
+.menu_item a:hover {
+    color: #fed136;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+.main {
+    margin-bottom: 115px;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+.title_text {
+    font-family: 'DroidSerif-Italic';
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    color: #777777;
+    padding: 19px 0 75px;
+}
+.title_text::first-letter {
+    text-transform: uppercase;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+.ser_item {
+    width: 290px;
+}
+.item_logo {
+    display: block;
+    margin: auto;
+}
+.item_title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 28px 0 18px;
+}
+.item_text {
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #777777;
+}
+.footer {
+    background-color: #222222;
+    background-image: url('../img/Map.png');
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+    color: white;
+    padding: 115px 0;
+}
+.form_area {
+    display: flex;
+    justify-content: space-around;
+}
+.form_list {
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form_item {
+    width: 415px;
+    height: 10px;
+    border-radius: 4px;
+    border: none;
+    padding: 20px;
+}
+.messege {
+    width: 415px;
+    height: 170px;
+    border-radius: 4px;
+    padding: 20px;
+    border: none;
+    resize: none;
+}
+.button {
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+    padding: 18px 37px;
+    background-color: #fed136;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.form_item::placeholder, .messege::placeholder {
+    font-size: 14px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.form_item, .messege {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+}
+.form_item:valid[1,2], .messege:valid {
+    outline: 1px solid green;
+}
+.form_item:invalid, .messege:invalid {
+    outline: 1px solid red;
+}
