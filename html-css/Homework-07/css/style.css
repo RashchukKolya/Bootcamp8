@@ -132,6 +132,7 @@
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 14px;
+    outline: none;
 }
 .form_item:valid[1,2], .messege:valid {
     outline: 1px solid green;
