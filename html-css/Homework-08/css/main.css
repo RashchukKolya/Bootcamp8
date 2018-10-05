@@ -1,5 +1,4 @@
 .main {
-    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,9 +78,6 @@
 }
 
 @media (min-width: 768px) {
-    .main {
-        width: 768px;        
-    }
     .partner {
         height: 500px;
         width: 520px;
@@ -97,9 +93,6 @@
 }
 
 @media (min-width: 1440px) {
-    .main {
-        width: 1440px;
-    }
     .partner {
         height: auto;
         width: 914px;

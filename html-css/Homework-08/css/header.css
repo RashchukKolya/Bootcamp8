@@ -1,5 +1,4 @@
 .header {
-    width: 320px;
     background-image: url('../img/VectorSmartObject320@1x.jpg');
     background-size: cover;
     padding: 20px 0 140px;
@@ -74,7 +73,6 @@
 
 @media (min-width: 768px) {
     .header {
-        width: 768px;
         background-image: url('../img/VectorSmartObject768@1x.jpg');
         padding-bottom: 234px;
     }
@@ -103,7 +101,6 @@
 
 @media (min-width: 1440px) {
     .header {
-        width: 1440px;
         background-image: url('../img/VectorSmartObject1440@1x.jpg');
         padding-bottom: 234px;
     }
