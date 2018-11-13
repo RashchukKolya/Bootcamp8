@@ -25,7 +25,7 @@ let numberOfPlaces = prompt('Введите количество человек'
     }
 }
 
- if(taba<=numberOfPlaces && numberOfPlaces10<=sharm){
+ if(taba<=numberOfPlaces && numberOfPlaces<=sharm){
     alert('У вас есть возможность поехать в 2 тура');
    let user= prompt('Если вы введете 1 вы поедете в - HURGADA. Если вы введете 2 вы поедете в - TABA')
     switch(Number(user)){
