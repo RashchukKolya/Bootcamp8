@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imgFullview {
+  display: block;
+  width: 82%;
+  padding: 20px 30px 10px;
+  box-shadow: 0 0 10px 5px grey;
+  margin: 10px auto;
+}
+
+.preview {
+  width: 1240px;
+  display: flex;
+  list-style-type: none;
+  overflow-y: auto;
+  margin: 20px auto;
+  box-shadow: 0 0 10px 5px grey;
+}
+.preview li {
+  padding: 10px;
+}
+.preview li img {
+  width: 290px;
+}
+
+.hover {
+  box-shadow: 0 0 10px 5px rgb(126, 126, 126);
+}
