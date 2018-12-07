@@ -50,10 +50,10 @@ function timerPause() {
 function timerReset() {
   timer.startTime = null;
   timer.deltaTime = null;
-  start.textContent = 'Start';
   time.textContent = "00:00:0";
   timerPause();
   addLap.innerHTML = '';
+  start.textContent = 'Start';
 }
 reset.addEventListener('click', timerReset)
 
