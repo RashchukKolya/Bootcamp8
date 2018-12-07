@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head-div {
+  width: 400px;
+  margin: 10px auto;
+}
+.btn {
+  width: 195px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  text-transform: uppercase;
+  color: grey;
+  background-color: #fff;
+  box-shadow: 0 0 5px 2px grey;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.main-div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 195px;
+
+}
+.text {
+  margin: 5px 0;
+  width: 195px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0 0 5px 2px grey
+}
+.list {
+  width: 400px;
+  margin: auto;
+  list-style-type: none;
+  border: 3px solid grey;
+  padding: 5px;
+}
