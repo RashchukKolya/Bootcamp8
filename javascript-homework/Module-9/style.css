@@ -10,9 +10,11 @@
   box-shadow: 0 0 10px 10px rgb(96, 138, 255);
 }
 .time {
+  display: block;
+  margin: auto;
+  width: 400px;
   font-family: 'Bungee', cursive;
   font-size: 100px;
-  text-align: center;
   text-shadow: 0 0 10px yellow;
   color: rgb(96, 138, 255);
 }
